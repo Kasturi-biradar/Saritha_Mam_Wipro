@@ -4,10 +4,8 @@ import java.time.ZonedDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
-
 public class Lab_14 {
-   
-    public void printDateTimeForZone(String zoneIdStr) {
+   public void printDateTimeForZone(String zoneIdStr) {
         try {
             ZoneId zoneId = ZoneId.of(zoneIdStr); // Convert string to ZoneId
             ZonedDateTime zonedDateTime = ZonedDateTime.now(zoneId); // Get date and time

@@ -117,12 +117,13 @@ public class Lab5_SeleniumWebDriver {
              ContinueBtn6.click();
              Thread.sleep(3000);
              
-             System.out.println("hii");
+            
              Thread.sleep(3000);
-        	 WebElement newsletterYES = driver.findElement(By.xpath("//input[@value='1']"));
-        	 newsletterYES.click();
-        	 Thread.sleep(3000);
-        	 
+             
+//        	 WebElement newsletterYES = driver.findElement(By.xpath("//input[@value='1']"));
+//        	 newsletterYES.click();
+//        	 Thread.sleep(3000);
+//        	 
         	 WebElement checkBox = driver.findElement(By.xpath("/html/body/div[2]/div/div/form/div/div/input[1]"));
         	 checkBox.click();
         	 

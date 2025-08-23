@@ -40,7 +40,7 @@ public class Lab4_For_TestNG {
 	  Select select = new Select(sortDropdown);
 	  select.selectByVisibleText("Name (A - Z)");
 	  WebElement successMsg = driver.findElement(By.xpath("//*[@id=\"product-category\"]/div[1]"));
-	
+	  successMsg.getText();
 	  driver.findElement(By.xpath("//*[@id=\"search\"]/input")).sendKeys("Mobile");
 	  Thread.sleep(3000);
 	  driver.findElement(By.xpath("//*[@id=\"search\"]/span/button")).click();

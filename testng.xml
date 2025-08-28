@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Question.Q9_ScreenShot"/>
+      <class name="Question.Q2_Login"/>
+      <class name="Question.Q3_Amazon"/>
+      <class name="Question.Q8_MultipleWindowsHandle"/>
+      <class name="Question.Q1_GoogleLaunch"/>
+      <class name="Question.Q4_Dropdown"/>
+      <class name="Question.Q6_CheckBox"/>
+      <class name="Question.Q7_TableDataExtract"/>
+      <class name="Question.Q5_Alert"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

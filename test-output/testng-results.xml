@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-28T16:39:28 IST" name="Default suite" finished-at="2025-08-28T16:39:41 IST" duration-ms="13667">
+    <groups>
+    </groups>
+    <test started-at="2025-08-28T16:39:28 IST" name="Default test" finished-at="2025-08-28T16:39:41 IST" duration-ms="13667">
+      <class name="Question.Q2_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Question.Q2_Login@7d20d0b]" started-at="2025-08-28T16:39:28 IST" name="setup" finished-at="2025-08-28T16:39:30 IST" duration-ms="2464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="f()[pri:0, instance:Question.Q2_Login@7d20d0b]" started-at="2025-08-28T16:39:30 IST" name="f" finished-at="2025-08-28T16:39:41 IST" duration-ms="10842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Question.Q2_Login@7d20d0b]" started-at="2025-08-28T16:39:41 IST" name="close" finished-at="2025-08-28T16:39:41 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Question.Q2_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

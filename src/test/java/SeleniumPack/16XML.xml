@@ -1,0 +1,16 @@
+<users>
+    <user>
+        <firstname>Leena</firstname>
+        <lastname>Kumari</lastname>
+        <email>leena5123@mail.com</email>
+        <telephone>9876543210</telephone>
+        <password>leena@123</password>
+    </user>
+    <user>
+        <firstname>Rohan</firstname>
+        <lastname>Sharma</lastname>
+        <email>rohan9349@mail.com</email>
+        <telephone>9876501234</telephone>
+        <password>rohan@123</password>
+    </user>
+</users>

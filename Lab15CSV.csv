@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 ﻿Fname,Lname,Email,Phone,Password,ConfirmPass
 Kasturi,Santosh,zoo@gmail.com,8967456,z@123,z@123
 Bhubi,shiva,Goo@gmail.com,90756,b@123,b@123
+=======
+﻿Fname,Lname,Email,Phone,Password,ConfirmPass
+Kasturi,Santosh,zoo@gmail.com,8967456,z@123,z@123
+Bhubi,shiva,Goo@gmail.com,90756,b@123,b@123
+>>>>>>> d535db0b91ea7ae6d691e37b6a62e7fdbe99bcaf

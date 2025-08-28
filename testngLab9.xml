@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Lab9 Suite" parallel='tests' thread-count="2">
     <test name="Lab9 Chrome Test">
@@ -14,3 +15,21 @@
         </classes>
     </test>
 </suite>
+=======
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Lab9 Suite" parallel='tests' thread-count="2">
+    <test name="Lab9 Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="SeleniumPack.Lab9_TestNg"/>
+        </classes>
+    </test>
+
+    <test name="Lab9 IE Test">
+        <parameter name="browser" value="ie"/>
+        <classes>
+            <class name="SeleniumPack.Lab9_TestNg"/>
+        </classes>
+    </test>
+</suite>
+>>>>>>> d535db0b91ea7ae6d691e37b6a62e7fdbe99bcaf

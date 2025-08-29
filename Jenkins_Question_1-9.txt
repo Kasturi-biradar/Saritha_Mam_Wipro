@@ -1,0 +1,113 @@
+Started by user Kasturi
+Running as SYSTEM
+Building in workspace C:\Users\HP\.jenkins\workspace\Question_1-9
+[Question_1-9] $ cmd /c call C:\Users\HP\AppData\Local\Temp\jenkins2567070328550166189.bat
+
+C:\Users\HP\.jenkins\workspace\Question_1-9>cd C:\Users\HP\OneDrive\Documents\wipro1\Wipro 
+
+C:\Users\HP\OneDrive\Documents\wipro1\Wipro>mvn clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< Wipro:August2 >----------------------------
+[INFO] Building August2 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ August2 ---
+[INFO] Deleting C:\Users\HP\OneDrive\Documents\wipro1\Wipro\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ August2 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ August2 ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 7 source files with javac [debug target 17] to target\classes
+[WARNING] system modules path not set in conjunction with -source 17
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ August2 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ August2 ---
+[INFO] Recompiling the module because of changed dependency.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 70 source files with javac [debug target 17] to target\test-classes
+[WARNING] system modules path not set in conjunction with -source 17
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] /C:/Users/HP/OneDrive/Documents/wipro1/Wipro/src/test/java/com/orangehrm/stepdefinitions/LoginSteps.java: Some input files use or override a deprecated API.
+[INFO] /C:/Users/HP/OneDrive/Documents/wipro1/Wipro/src/test/java/com/orangehrm/stepdefinitions/LoginSteps.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ August2 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 28, 2025 4:43:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Aug 28, 2025 4:43:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+You logged into a secure area!
+×
+Aug 28, 2025 4:43:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+First 5 products name
+1: Primebook 2 Neo 2025 (New Launch) Gen 2 | 6GB RAM, 128GB UFS 2.2 Storage | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | in-Built AI | 11.6” Thin & Light | Type-C, USB, MicroSD | Gray
+2: HP OmniBook 5 (Previously Pavilion) 13th Gen Intel Core i5 1334U (16GB LPDDR5X, 512GB SSD) WUXGA, 2K,IPS,300nits,16''/40.6cm, Win11, M365 Basic(1yr)* Office24, Blue, 1.79kg, ba1123TU,FHD camera Laptop
+3: HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop
+4: HP 15s, 12th Gen Intel Core i3-1215U (8GB DDR4, 512GB SSD) Anti-Glare, 15.6"/39.6cm,FHD, Win 11, MS Office 21, Silver, 1.69kg, fy5006tu/fd0751tu/fd0752tu, UHD Graphics, HD Camera, Dual Speakers Laptop
+5: Alienware New 18 Area-51 Gaming Laptop, AI Enabled Core Ultra 9 275HX Processor, 32GB DDR5, 2TB SSD, RTX 5080 16GB GDDR7 Graphics, 18.0" WQXGA 300Hz 500 nits Display, Liquid Teal Color, 4.34kg
+Aug 28, 2025 4:43:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+New Window
+The Internet
+Aug 28, 2025 4:44:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+The title is: Google
+Aug 28, 2025 4:44:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Aug 28, 2025 4:44:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Aug 28, 2025 4:44:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+First Names: 
+John
+Frank
+Jason
+Tim
+jdoe@hotmail.com
+Aug 28, 2025 4:44:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 61.50 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:17 min
+[INFO] Finished at: 2025-08-28T16:44:25+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
